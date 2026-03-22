@@ -5,7 +5,7 @@ from unsloth import FastLanguageModel
 HF_TOKEN = os.environ.get("HF_TOKEN")
 
 # The repo where your adapters currently live
-ADAPTER_REPO = "phinjaz/last-checkpoint" 
+ADAPTER_REPO = "phinjaz/Qwen3-Coder-Decomp-Finetune-vastai" 
 
 # The NEW repo where your finished GGUF will be saved
 GGUF_REPO = "phinjaz/Qwen3-14B-Decomp-GGUF" 
